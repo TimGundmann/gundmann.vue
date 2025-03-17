@@ -4,7 +4,7 @@ name: Build and Deploy NPM App
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: '22'
 
       - name: Setup PNPM
         uses: pnpm/action-setup@v3
@@ -37,5 +37,5 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
-          source: "dist/"
-          target: "/var/www/gundmann.dk"
+          source: 'dist/'
+          target: '/var/www/gundmann.dk'
