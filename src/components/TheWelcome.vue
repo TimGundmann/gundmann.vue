@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SkilItem from './SkilItem.vue'
+import SkillItem from './SkillItem.vue'
 
 const yearsOfExperience: number = new Date().getFullYear() - 1998
 const javaExperience: number = new Date().getFullYear() - 2007
@@ -24,36 +24,48 @@ const javaExperience: number = new Date().getFullYear() - 2007
   <p>I have thorough experience with these technologies and methods:</p>
   <hr />
   <div class="skills">
-    <SkilItem
+    <SkillItem
       title="Continuous Delivery"
       description="Have set up several systems with automated pipeline for build, test and deployments"
       link="https://en.wikipedia.org/wiki/Continuous_delivery"
-    />
-    <SkilItem
+    >
+      <span class="fa fa-play-circle-o" />
+    </SkillItem>
+    <SkillItem
       title="Vue 3"
       description="Have built several applications with Vue.js"
       link="https://vuejs.org"
-    />
-    <SkilItem
+    >
+      <img class="icon" src="@/assets/images/Vue.svg" />
+    </SkillItem>
+    <SkillItem
       title="TypeScript"
       description="Have built several applications with TypeScript"
       link="https://www.typescriptlang.org"
-    />
-    <SkilItem
+    >
+      <img class="icon" src="@/assets/images/Ts.svg" />
+    </SkillItem>
+    <SkillItem
       title="Angular"
       description="Have build applications with Angular version 2+"
       link="https://angular.io"
-    />
-    <SkilItem
+    >
+      <img class="icon" src="@/assets/images/Angular.svg" />
+    </SkillItem>
+    <SkillItem
       title="Spring Boot"
       description="Have built several applications with Spring Boot since version 1.0"
       link="https://spring.io/projects/spring-boot"
-    />
-    <SkilItem
+    >
+      <img class="icon" src="@/assets/images/Sp.svg" />
+    </SkillItem>
+    <SkillItem
       title="Java"
       :description="`More than ${javaExperience} years of experience with Java building frontend and backend applications`"
       link="https://www.java.com"
-    />
+    >
+      <img class="icon" src="@/assets/images/Java.svg" />
+    </SkillItem>
   </div>
 </template>
 <style lang="css">

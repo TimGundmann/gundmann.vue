@@ -7,7 +7,9 @@ defineProps<{
 </script>
 <template>
   <section class="u4 skill">
-    <span class="pennant"><span class="fa fa-play-circle-o"></span></span>
+    <span class="pennant">
+      <slot></slot>
+    </span>
     <h3>{{ title }}</h3>
     <p style="min-height: 80px">
       {{ description }}
