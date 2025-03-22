@@ -11,9 +11,14 @@
             <a href="mailto:tim@gundmann.dk" class="fa fa-envelope"><span>Mail</span></a>
           </li>
           <li class="active">
-            <a href="https://www.linkedin.com/in/gundmann/" class="fa fa-linkedin-square"
-              ><span>Linkedin</span></a
-            >
+            <a href="https://www.linkedin.com/in/gundmann/" class="fa fa-linkedin-square">
+              <span>Linkedin</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="https://github.com/TimGundmann" class="fa fa-github">
+              <span>Linkedin</span>
+            </a>
           </li>
         </ul>
       </section>
