@@ -19,7 +19,8 @@ const javaExperience: number = new Date().getFullYear() - 2007
   </header>
   <p>
     I am an independent fulle stack developer with more than {{ yearsOfExperience }} years of
-    experience
+    experience. My resume can be found on my
+    <a href="https://www.linkedin.com/in/gundmann/">LinkedIn profile</a>.
   </p>
   <p>I have thorough experience with these technologies and methods:</p>
   <hr />
