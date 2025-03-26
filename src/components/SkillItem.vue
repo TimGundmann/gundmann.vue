@@ -8,6 +8,7 @@ defineProps<{
 <template>
   <section class="u4 skill">
     <span class="pennant">
+      <!-- Default -->
       <slot></slot>
     </span>
     <h3>{{ title }}</h3>
